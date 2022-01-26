@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"> 
+        <title> 서버에 요청을 보내자, 폼!</title>
+    </head> 
+    <body> 
+      <h1>키우고 싶은 동물 고르기</h1>
+        <form action="exam.php" method="post"></form>
+            <input type="text" placeholder="name" name="name">
+                <br>
+            <select name="pet">
+                <option value="dog">강아지</option>
+                <option value="cat" selected>고양이</option> <!-- 기본적으로 선택될 수 있도록 하는 selected-->
+                <option value="hamster">햄스터</option>
+                <option value="parret">앵무새</option>
+            </select>
+            <input type="submit" value="전송">
+    </body>
+</html>
