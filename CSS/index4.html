@@ -4,13 +4,20 @@
     <meta charset="utf-8">
     <title> HTML 문서 </title>
     <style>
-        *{font-family: serif;}
-        h1{font-size: 40px; text-align: center; color: #896628;}
-        p{font-size: 20px; text-align: center; color: #FF00FF;}
+        div{
+            border: 3px solid red;
+            display: none; 
+        }
+        span{
+            border-width: 5px;
+            border-style: dashed;
+            border-color: rgb(100%, 50%, 0%);
+            display: inline-block;
+        }
     </style>
 </head>
 <body>
-    <h1>hi everyone</h1>
-    <p>my name is seulbi!</p>
+    <div>나는야 블록 레벨</div>
+    <span>나는야 인라인 레벨</span>
 </body>
 </html>
